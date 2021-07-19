@@ -1,0 +1,2474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/Chapter3</text>
+
+    </category>
+  </question>
+
+<!-- question: 612720  -->
+  <question type="matching">
+    <name>
+      <text>Types of comments</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Match the type of comment with the correct comment structure.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>Used to enclose single or multiline comments. These comments are appropriate at the beginning of a program to describe the application.</p>]]></text>
+      <answer>
+        <text>/* comment text */</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Used for adding a comment to the end of a statement or to create a single line comment.</p>]]></text>
+      <answer>
+        <text>// comment text</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>Used for documentation. The javadoc tool copies these comments into a separate HTML document to create an instructional manual or external documentation. Documentation comments are appropriate for describing a class or method.</p>]]></text>
+      <answer>
+        <text>/** comment text */</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 22176  -->
+  <question type="multichoice">
+    <name>
+      <text>Compiled Java source code is called</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; color: #000000; font-family: 'times new roman';">Compiled Java source code is called</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>bytecode.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="moodle_auto_format">
+      <text>machine code.</text>
+      <feedback format="html">
+        <text><![CDATA[<p>For all languages other than Java, this is true.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>source code.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>compilated code.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22209  -->
+  <question type="multichoice">
+    <name>
+      <text>In the code for a Java applet, which method is used to draw a message on the screen at specified coordinates?</text>
+    </name>
+    <questiontext format="html">
+      <text>In the code for a Java applet, which method is used to draw a message on the screen at specified coordinates?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>init()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>paint()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>setColor()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>drawString()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22174  -->
+  <question type="multichoice">
+    <name>
+      <text>Java code typed by a programmer is called</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Java code typed by a programmer is called</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>bytecode.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>machine code.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>source code.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>compiled code.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 612721  -->
+  <question type="multichoice">
+    <name>
+      <text>Java Virtual Machine</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The Java Virtual Machine</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>interprets Java byte code</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>is a real physical machine that produces Java code</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>is the program that allows the programmer to enter their source code</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>is an optional piece of software that can be replaced by the IDE</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22167  -->
+  <question type="multichoice">
+    <name>
+      <text>Java was developed by</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Java was developed by</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Microsoft.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Apple.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Sun Microsystems and now Oracle.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">W3C.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 612719  -->
+  <question type="multichoice">
+    <name>
+      <text>Main method header</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following is correct for the <b>main</b> method header?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>public static void main(String[] args)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>public String void main(Static args)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>private static void main(string args)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>private int main(String args)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 612717  -->
+  <question type="multichoice">
+    <name>
+      <text>Object Oriented Programming</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Java is an ________________</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Object Oriented Programming language<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Functional Programming language</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Logical Programming language</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Imperative Programming language</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 612716  -->
+  <question type="multichoice">
+    <name>
+      <text>Platform Independent</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>If a program is "platform independent", it is</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>able to run on any Operating System.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>able to use commands from various programming languages to create an application.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>not supported by any particular company such as Microsoft or Apple.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>free, open source software.</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 131089  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[public class CatInTheHat {      public static void main(String args) {            System.out.println(&quot;good-bye&quot;);            System.out.print(&quot;adios\n&quot;);          ]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>public class CatInTheHat {<br sab="7101" /><br sab="7102" />      public static void main(String [] args) {<br sab="7103" />            System.out.print("Cat");<br sab="7104" />            System.out.println("in\n");<br sab="7105" />            System.out.print("the\nhat");<br sab="7106" />      }<br sab="7107" />}<br sab="7108" /><br sab="7109" />CatInTheHat produces output similar to:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<br>Catin<br><br>the<br>hat<hr>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<br>Catinthehat<hr>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<br>Cat<br>in<br>the<br>hat<hr>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<br>Catin<br>thehat<hr>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p></p>
+<p>Catin<br />the<br />hat</p>
+<hr />]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22217  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[public class MulticulturalGoodbye {      public static void main(String args) {            System.out.println(&quot;good-bye&quot;);            System.out.print(&quot;adios\n&quot;);          ]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>public class MulticulturalGoodbye {<br sab="7101"><br sab="7102">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public static void main(String[] args) {<br sab="7103">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("Good-bye");<br sab="7104">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.print("adios\n");<br sab="7105">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("au voire");<br sab="7106">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br sab="7107">}<br sab="7108"><br sab="7109">MulticulturalGoodbye produces output similar to:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<br>Good-bye<br>adios<br>au voire]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<br>Good-byeadiosau voire]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<br>Good-bye<br>adiosau voire]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<br>Good-byeadios<br>au voire]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22210  -->
+  <question type="multichoice">
+    <name>
+      <text>Sets of instructions in program code are called</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Sets of instructions in program code that are used to perform a single, well defined task are called:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>objects</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>methods</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>stacking codes</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>comments</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22171  -->
+  <question type="multichoice">
+    <name>
+      <text>The main() method is defined as</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The main() method is defined as</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>public static void main(string args)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>public static void Main(String[] args)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>public static void main(String[] args)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>public static main(String args)</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22216  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[To display a double quotation mark (&quot;) as part of string output,]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>To display a double quotation mark (") as part of string output,</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[place the double quotation mark within double quotation marks (&quot;).]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>place the double quotation mark within a comment.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>precede the double quotation mark with a single quotation mark ( ' ). Note: Precede means to put it in front.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>precede the double quotation mark with a back slash (\).</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22173  -->
+  <question type="multichoice">
+    <name>
+      <text>What effect does \n have when included in an output string?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">What effect does<span style="font-family: 'Courier New';"><span style="font-size: 10pt;"> \n </span></span>have when included in an output string?</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Output is moved to the next line.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A<span style="font-family:'Courier New'"><span style="font-size:10pt"> \n </span></span>is displayed in the output.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A tab (8 spaces) is displayed in the output.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A<span style="font-family:'Courier New'"><span style="font-size:10pt"> N </span></span>is displayed in the output.</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 130934  -->
+  <question type="multichoice">
+    <name>
+      <text>What effect does \t have when included in an output string?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What effect does \t have when included in an output string?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Output is moved to the next line.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>A \t is displayed in the output.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>A tab (8 spaces) is displayed in the output.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>A T is displayed in the output.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22215  -->
+  <question type="multichoice">
+    <name>
+      <text>Which character is an escape sequence?</text>
+    </name>
+    <questiontext format="html">
+      <text>Which character does an escape sequence begin with?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>!</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>/</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>\</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>*</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22218  -->
+  <question type="multichoice">
+    <name>
+      <text><![CDATA[Which describes the output displayed by the statement: System.out.format(&quot;%-10s %-10s %8s&quot;, &quot;Item&quot;, &quot;Quantity&quot;, &quot;Cost\n&quot;);]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which describes the output displayed by the statement:<br /> System.out.format("%-10s %-10s %8s", "Item", "Quantity", "Cost\n");</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Item and Quantity will be right aligned, Cost will be left aligned.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>Item and Quantity will be left aligned, Cost will be right aligned.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Item, Quantity, and Cost will be right aligned.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Item, Quantity, and Cost will be left aligned.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22169  -->
+  <question type="multichoice">
+    <name>
+      <text>Which indicates a method that will not return a value?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Which indicates a method that will not return a value?</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">static</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">package</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">void</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">out</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22170  -->
+  <question type="multichoice">
+    <name>
+      <text>Which is a named set of statements that perform a single, well-defined task?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Which is a named <b><i>set </i></b>of statements that perform a single, well-defined task?</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">object</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">method</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">comment</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">argument</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22219  -->
+  <question type="multichoice">
+    <name>
+      <text>Which is a set of steps that tell how to solve a problem?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which is a set of steps that tell how to solve a problem?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>algorithm</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>argument</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>Java application</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>package</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22168  -->
+  <question type="multichoice">
+    <name>
+      <text>Which is another name for package?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Which is another name for package?</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">object</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">library</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">method</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">string</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22214  -->
+  <question type="multichoice">
+    <name>
+      <text>Which is not true about a syntax error?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which is<strong><span style="text-decoration: underline;"> not</span></strong> true about a syntax error?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>A syntax error will stop the application from compiling.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>A syntax error is caused by a violation of the rules of Java.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>A syntax error indicates improper spaces in the code.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>A syntax error must be corrected and the program recompiled before the program will run.</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22220  -->
+  <question type="multichoice">
+    <name>
+      <text>Which method displays output to the screen and then moves the insertion point to the next line?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which method displays output to the screen and then moves the insertion point to the next line?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>format()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>main()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>print()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>println()</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22178  -->
+  <question type="multichoice">
+    <name>
+      <text>Which occurs in a statement that violates the rules of Java?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Which occurs in a statement that violates the rules of Java?</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">a logic error</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">an output error</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">a syntax error</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">an argument</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22172  -->
+  <question type="multichoice">
+    <name>
+      <text>Which of the following represent correctly-formed comments?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Which of the following represent correctly-formed comments?<br /><br />
+<div style="font-size: 2pt;"></div>
+<table style="width: 41%;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr valign="top">
+<td> </td>
+<td>I.</td>
+<td><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">// Happy</span></span></td>
+</tr>
+<tr valign="top">
+<td> </td>
+<td>II.</td>
+<td><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">/* Sorry /*</span></span></td>
+</tr>
+<tr valign="top">
+<td> </td>
+<td>III.</td>
+<td><span style="font-family: 'Courier New';"><span style="font-size: 10pt;">/* Wise */</span></span></td>
+</tr>
+<tr style="border: none;" height="0">
+<td width="39%"></td>
+<td width="18%"></td>
+<td width="43%"></td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">I only</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">I and II only</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">I and III only</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">III only</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22175  -->
+  <question type="multichoice">
+    <name>
+      <text>Which process converts source code to code that the computer understands?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Which process converts source code to code that the computer understands?</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>running</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>executing</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>compiling</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>interpreting</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22211  -->
+  <question type="multichoice">
+    <name>
+      <text>Which statement displays Hello, world! on the screen?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which statement displays <b>Hello, world!</b> on the screen?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>System.out.println(Hello, world!);</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[System.out.println(&quot;Hello, world!&quot;);]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>System.println(Hello, world!);</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[system.println(&quot;Hello, world!&quot;);]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22177  -->
+  <question type="multichoice">
+    <name>
+      <text>Which would be the resulting bytecode file name if testApplication.java is compiled?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size: 12pt; font-family: 'Times New Roman'; color: #000000;">Which would be the resulting bytecode file name if <span style="font-family: 'Courier New';"><span style="font-size: 10pt;">TestApplication.java </span></span>is compiled?</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">TestApplication.cmd</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">TestApplication.class</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">TestApplication.java</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text><![CDATA[<span style="font-size:12pt; font-family:'Times New Roman'; color:#000000;"><span style="font-family:'Courier New'"><span style="font-size:10pt">TestApplication.jit</span></span></span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22148  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A Java applet must be compiled.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A Java applet must be compiled.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22160  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A program containing syntax errors will compile.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A program containing syntax errors will compile.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22144  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A tag with a slash (/) before the element indicates the start of an instruction.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">A tag with a slash (/) before the element indicates the start of an instruction.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22158  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">An interpreter is software that runs each bytecode instruction of a compiled Java program.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">An interpreter is software that runs each bytecode instruction of a compiled Java program.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22153  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Comments affect the execution of a program.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Comments affect the execution of a program.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22157  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Compiled source code files have the extension<span style="font-family:'Courier New'"><span style="font-size:10pt"> .java</span></span>.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Compiled source code files have the extension<span style="font-family:'Courier New'"><span style="font-size:10pt"> .java</span></span>.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22164  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">In a format string specifier, a – indicates right alignment.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">In a format string specifier, a – indicates right alignment.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22147  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Java applets have the ability to write files to a user’s computer.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Java applets have the ability to write files to a user’s computer.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22146  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Java applets run in a browser window.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Java applets run in a browser window.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22151  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Java is an object-oriented programming language.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Java is an object-oriented programming language.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22145  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">JavaScript is the same language as Java.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">JavaScript is the same language as Java.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22159  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Machine code is comprised of 1s and 0s.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Machine code is comprised of 1s and 0s.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22152  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Platform-independent applications can only be run on computers with a Windows operating system.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Platform-independent applications can only be run on computers with a Windows operating system.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22156  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Source code files have the extension<span style="font-family:'Courier New'"><span style="font-size:10pt"> .class</span></span>.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Source code files have the extension<span style="font-family:'Courier New'"><span style="font-size:10pt"> .class</span></span>.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22155  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Statements must end with a period.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">Statements must end with a period.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22165  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">The format() method can be used to control the way output is displayed.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">The format() method can be used to control the way output is displayed.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22154  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">The main() method is automatically executed when a Java application is run.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">The main() method is automatically executed when a Java application is run.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22163  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">There is no difference between the print() and println() methods.</div>]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">There is no difference between the print() and println() methods.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22189  -->
+  <question type="truefalse">
+    <name>
+      <text>A class defines the actual data for an object.</text>
+    </name>
+    <questiontext format="html">
+      <text>A class defines the actual data for an object.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22182  -->
+  <question type="truefalse">
+    <name>
+      <text>A Java applet must be compiled.</text>
+    </name>
+    <questiontext format="html">
+      <text>A Java applet must be compiled.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22194  -->
+  <question type="truefalse">
+    <name>
+      <text>A Java application contains at least one class.</text>
+    </name>
+    <questiontext format="html">
+      <text>A Java application contains at least one class.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22190  -->
+  <question type="truefalse">
+    <name>
+      <text>An application is contained in a package.</text>
+    </name>
+    <questiontext format="html">
+      <text>An application is contained in a package.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22162  -->
+  <question type="truefalse">
+    <name>
+      <text><![CDATA[An escape sequence must be used to display a double quotation mark (&quot;).]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">An escape sequence (\) must be used to display a double quotation mark (").</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22184  -->
+  <question type="truefalse">
+    <name>
+      <text>Drawing an oval in an applet requires specifying the radius and the diameter coordinates.</text>
+    </name>
+    <questiontext format="html">
+      <text>Drawing an oval in an applet requires specifying the radius and the diameter coordinates.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22188  -->
+  <question type="truefalse">
+    <name>
+      <text>If a Java class has a main method, it is called a controlling class.</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[If a Java class has a main method, it is called a <i>controlling</i> class.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22205  -->
+  <question type="truefalse">
+    <name>
+      <text>If a width of 10 is specified in a format string specifier and the argument is 12 characters, a syntax error will occur.</text>
+    </name>
+    <questiontext format="html">
+      <text>If a width of 10 is specified in a format string specifier and the argument is 12 characters, a syntax error will occur. In other words, the text is too wide for the column.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="0" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22179  -->
+  <question type="truefalse">
+    <name>
+      <text>Multimedia can be embedded in an HTML document.</text>
+    </name>
+    <questiontext format="html">
+      <text>Multimedia can be embedded in an HTML document.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 612718  -->
+  <question type="truefalse">
+    <name>
+      <text>Package Library</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The words <b>package</b>&nbsp;and <b>library </b>mean the same thing in Java.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22191  -->
+  <question type="truefalse">
+    <name>
+      <text>Packages are importable.</text>
+    </name>
+    <questiontext format="html">
+      <text>Packages are importable.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22208  -->
+  <question type="truefalse">
+    <name>
+      <text>Programs are created to solve problems.</text>
+    </name>
+    <questiontext format="html">
+      <text>Programs are created to solve problems.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22195  -->
+  <question type="truefalse">
+    <name>
+      <text>The main() method is placed in the controlling class.</text>
+    </name>
+    <questiontext format="html">
+      <text>The main() method is placed in the controlling class.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22186  -->
+  <question type="truefalse">
+    <name>
+      <text>The object-oriented programming approach allows programmers to create modules that can be used over and over again.</text>
+    </name>
+    <questiontext format="html">
+      <text>The object-oriented programming approach allows programmers to create modules that can be used over and over again.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22161  -->
+  <question type="truefalse">
+    <name>
+      <text>The System class contains methods for displaying output.</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<div style="font-size:12pt; font-family:'Times New Roman'; color:#000000;">System.out contains methods for displaying output.</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <answer fraction="100" format="plain_text">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="plain_text">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
